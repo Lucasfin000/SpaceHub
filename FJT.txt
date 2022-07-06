@@ -1,0 +1,42 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Space Hub | Fruit Juice Tycoon: Refreshed", HidePremium = false, SaveConfig = true, ConfigFolder = "FJT"})
+local main = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local tp = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "Space Hub",
+	Content = "Space Hub Has Loaded!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+main:AddButton({
+	Name = "Autofarm",
+	Callback = function()
+        _G.SaveForObby = false -- set this to true to save your fruits for the 2x obby bonus
+        _G.OnlyCollectAndObby = false -- set this to true if you only want to use auto-obby and auto-collect
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/fruit_juice_tycoon/main/auto_farm'),true))()
+  	end    
+})
+tp:AddButton({
+	Name = "Obby Start",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.2706395387649536, 3.971226215362549, 157.2878875732422)
+  	end    
+})
+tp:AddButton({
+	Name = "Obby End",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1.1350762844085693, 3.809598207473755, 407.7854309082031)
+  	end    
+})
+
+
+
+OrionLib:Init()
