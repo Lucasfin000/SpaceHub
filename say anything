@@ -7,7 +7,7 @@ local Tab = Window:MakeTab({
 })
 Tab:AddTextbox({
 	Name = "Say Anything",
-	Default = ",
+	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
 
