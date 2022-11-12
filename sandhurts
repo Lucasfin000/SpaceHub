@@ -1,0 +1,49 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Space Hub | Sandhurst Military Academy", IntroText = "Space Hub", IntroIcon = "rbxassetid://4483362748", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Space Hub",
+	Content = "Space Hub has Loaded!",
+	Image = "rbxassetid://4370316596",
+	Time = 5
+})
+local main = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483364327",
+	PremiumOnly = false
+})
+local credit = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4335489513",
+	PremiumOnly = false
+})
+main:AddButton({
+	Name = "Fake AFK",
+	Callback = function()
+        wait(0.5)
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").AFKEvent:FireServer(unpack(args))
+
+  	end    
+})
+main:AddParagraph("Yes,","that is all i have made for this the rest gives you a kick.")
+
+
+
+
+
+
+credit:AddButton({
+	Name = "Scripter: Lucas!#9935",
+	Callback = function()
+setclipboard("https://discord.gg/9KR5vUU4X3")
+OrionLib:MakeNotification({
+	Name = "Space Hub",
+	Content = "Discord Link Copied To Clipboard",
+	Image = "rbxassetid://4370341699",
+	Time = 5
+})
+  	end    
+})
