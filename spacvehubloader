@@ -10,7 +10,16 @@ local Tab = GUI:Tab{
 	Name = "Main Page",
 	Icon = "rbxassetid://4483362748"
 }
-
+local Premium = GUI:Tab{
+	Name = "Space Hub Premium",
+	Icon = "rbxassetid://3610239960"
+}
+Premium:Button{
+	Name = "🚀  Load Space Hub Premium  🛰",
+	Description = "Space Hub Premium Loader",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacehubpremiumloader"))() end
+     
+}
 
 
 
