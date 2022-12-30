@@ -11,6 +11,10 @@ local function processfunction(functionname)
         loadstring(game:GetObjects("rbxassetid://4763830754")[1].Source)()
         return(true)
     end
+    if functionname == "parrts" then
+        game.Workspace["Parts"]:Destroy()
+        return(true)
+    end
     if functionname == "gwap" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-356.79083251953125, 701.0478515625, -2131.89111328125)
         return(true)
@@ -704,6 +708,15 @@ local products = {
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/sandhurts",
         ["Function"] = nil
+    },
+    ["Lag Test 2021"] = {
+        ["Name"] = "Lag Test 2021",
+        ["IDs"] = {
+            6356806222,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "",
+        ["Function"] = "parrts"
     },
 
 
