@@ -345,6 +345,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected%20(7).lua",
         ["Function"] = nil
     },
+    ["Build A Boat For Treasure"] = {
+        ["Name"] = "Build A Boat For Treasure",
+        ["IDs"] = {
+            537413528,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/babft",
+        ["Function"] = nil
+    },
     ["Bad Business"] = {
         ["Name"] = "Bad Business",
         ["IDs"] = {
@@ -675,7 +684,7 @@ local products = {
             6284583030,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/petsimx.lua",
+        ["URL"] = "https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841",
         ["Function"] = nil
     },
     ["Game Store Tycoon"] = {
