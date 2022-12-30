@@ -14,12 +14,6 @@ local Premium = GUI:Tab{
 	Name = "Space Hub Premium",
 	Icon = "rbxassetid://3610239960"
 }
-Premium:Button{
-	Name = "🚀  Load Space Hub Premium  🛰",
-	Description = "Space Hub Premium Loader",
-	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacehubpremiumloader"))() end
-     
-}
 
 
 
@@ -44,6 +38,12 @@ GUI:Notification{
 	Text = "Space Hub Loader Has Loaded",
 	Duration = 5,
 	Callback = function() end
+}
+Premium:Button{
+	Name = "Load Space Hub Premium",
+	Description = "Space Hub Premium",
+	Callback = function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacehubpremiumloader")))() end
+     
 }
 
 
