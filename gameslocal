@@ -412,13 +412,13 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected%20(6).lua",
         ["Function"] = nil
     },
-    ["Super Treehouse Tycoon"] = {
-        ["Name"] = "Super Treehouse Tycoon",
+    ["Heist Tycoon"] = {
+        ["Name"] = "Heist Tycoon",
         ["IDs"] = {
-            4874301395,
+            11103424163,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected%20(6).lua",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/heisttycoon",
         ["Function"] = nil
     },
     ["Roblox Tycoon"] = {
