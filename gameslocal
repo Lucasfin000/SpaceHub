@@ -193,7 +193,7 @@ local products = {
             286090429,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected%20(5).lua",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/aresnal",
         ["Function"] = nil
     },
     ["Jetpack Jumpers"] = {
