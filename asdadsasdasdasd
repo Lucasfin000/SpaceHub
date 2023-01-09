@@ -1,0 +1,32 @@
+local Players = game:GetService("Players")
+local OldNameCall = nil
+
+getgenv().SendNotifications = false -- Set to true if you want to get notified regularly.
+
+OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
+    local NameCallMethod = getnamecallmethod()
+
+    if tostring(string.lower(NameCallMethod)) == "kick" then
+        if getgenv().SendNotifications == true then
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "",
+                Text = "",
+                Icon = "",
+                Duration = 0,
+            })
+        end
+        
+        return nil
+    end
+    
+    return OldNameCall(Self, ...)
+end)
+
+if getgenv().SendNotifications == true then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "",
+        Text = "",
+        Icon = "",
+        Duration = 5,
+    })
+end
