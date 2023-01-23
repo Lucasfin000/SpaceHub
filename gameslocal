@@ -109,9 +109,10 @@ local products = {
         },
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS",
-        ["Function"] = "BloxFruits"
+        ["Function"] = nil
 
     },
+
 
     ["Prison Life"] = {
         ["Name"] = "Prison Life",
