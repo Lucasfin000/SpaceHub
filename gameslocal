@@ -112,6 +112,18 @@ local products = {
         ["Function"] = nil
 
     },
+    ["Blox Fruits"] = {
+
+        ["Name"] = "Blox Fruits",
+        ["IDs"] = {
+            994732206,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS",
+        ["Function"] = nil
+
+    },
 
 
     ["Prison Life"] = {
