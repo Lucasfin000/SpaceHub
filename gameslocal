@@ -695,6 +695,15 @@ local products = {
         ["URL"] = "",
         ["Function"] = "gb"
     },
+    ["Tapping Simulator"] = {
+        ["Name"] = "Tapping Simulator",
+        ["IDs"] = {
+            9498006165,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/1dc4a655abfde4a7219238652db238fcfb737ae8/tapping%20sim",
+        ["Function"] = nil
+    },
     ["Pet Simulator X"] = {
         ["Name"] = "Pet Simulator X",
         ["IDs"] = {
