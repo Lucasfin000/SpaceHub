@@ -602,7 +602,7 @@ local products = {
             5736409216,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/hoopcentral6",
+        ["URL"] = "https://github.com/Lucasfin000/SpaceHub/blob/main/malltycoon.lua",
         ["Function"] = nil
     },
     ["Slime Tower Tycoon"] = {
