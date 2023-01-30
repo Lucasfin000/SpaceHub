@@ -146,6 +146,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Chicago%20Remastered.lua",
         ["Function"] = nil
     },
+     ["The Eastern War"] = {
+        ["Name"] = "The Eastern War",
+        ["IDs"] = {
+            8225971185,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/The%20Eastern%20War",
+        ["Function"] = nil
+    },
     ["Goal Kick Simulator"] = {
         ["Name"] = "Goal Kick Simulator",
         ["IDs"] = {
