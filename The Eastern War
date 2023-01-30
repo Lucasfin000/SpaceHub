@@ -1,0 +1,281 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Space Hub | The Eastern War", HidePremium = false, SaveConfig = true, ConfigFolder = "war"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local p = Window:MakeTab({
+	Name = "Localplayer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local g = Window:MakeTab({
+	Name = "Gun Mods",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Supress Server",
+	Callback = function()
+        while task.wait() do
+
+            for _, player in next, game.Players:GetPlayers() do
+               game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Suppression:FireServer(player, 666, 666, 666)
+            end
+         end
+  	end    
+})
+Tab:AddButton({
+	Name = "Crash Server",
+	Callback = function()
+        while task.wait() do
+
+            for i = 1, 30 do
+                game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.ServerBullet:FireServer(Vector3.new(0/0/0),Vector3.new(0/0/0))
+            end
+         end
+  	end    
+})
+Tab:AddButton({
+	Name = "Lag Server",
+	Callback = function()
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Breach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame={},Size={}})
+  	end    
+})
+p:AddButton({
+	Name = "God Mode",
+	Callback = function()
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Damage:FireServer(game.Players.LocalPlayer.Character.Humanoid, -math.huge, 0, 0)
+  	end    
+})
+p:AddButton({
+	Name = "Kill",
+	Callback = function()
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Damage:FireServer(game.Players.LocalPlayer.Character.Humanoid, math.huge, 0, 0)
+  	end    
+})
+p:AddButton({
+	Name = "Heal",
+	Callback = function()
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Damage:FireServer(game.Players.LocalPlayer.Character.Humanoid, -50, 0, 0)
+  	end    
+})
+p:AddButton({
+	Name = "Bypass Building Cooldown",
+	Callback = function()
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Recarregar:FireServer(9999999,{ACS_Modulo={Variaveis={StoredAmmo = game.Players.LocalPlayer.Character.ACS_Client.Kit.Fortifications}}})
+  	end    
+})
+p:AddButton({
+	Name = "Build",
+	Callback = function()
+        local cFrame = CFrame.new(0,0,0)
+
+
+        local Size = {
+          X = 1,
+          Y = 1,
+          Z = 1
+        }
+        
+        game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.Breach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame,Size=Size})
+  	end    
+})
+p:AddButton({
+	Name = "No Fall Damage",
+	Callback = function()
+        local cfg = require(game:GetService('ReplicatedStorage')['ACS_Engine'].GameRules.Config)
+cfg.EnableFallDamage = false
+  	end    
+})
+p:AddButton({
+	Name = "No Jump Cooldown",
+	Callback = function()
+        local cfg = require(game:GetService('ReplicatedStorage')['ACS_Engine'].GameRules.Config)
+cfg.AntiBunnyHop = false
+
+  	end    
+})
+p:AddButton({
+	Name = "Infinite Stamina",
+	Callback = function()
+        local cfg = require(game:GetService('ReplicatedStorage')['ACS_Engine'].GameRules.Config)
+        cfg.EnableStamina = false
+  	end    
+})
+p:AddButton({
+	Name = "Kill All",
+	Callback = function()
+        function killPlayer(plr)
+            local tool = nil
+            for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                if v:FindFirstChild("ACS_Settings") then
+                    tool = v
+                    break
+                end
+            end
+            if not tool then return warn("Tools not found") end
+            game.ReplicatedStorage.ACS_Engine.Events.Damage:InvokeServer(
+                tool,
+                plr.Character.Humanoid,
+                0,
+                1,
+                require(tool.ACS_Settings),
+                {
+                 ["SpreadRM"] = 1,
+                 ["RecoilPowerStepAmount"] = 1,
+                 ["Zoom2Value"] = 60,
+                 ["MaxSpread"] = 1,
+                 ["MinRecoilPower"] = 1,
+                 ["DamageMod"] = 1,
+                 ["gunRecoilMod"] = {
+                 ["RecoilRight"] = 1,
+                 ["RecoilLeft"] = 1,
+                 ["RecoilTilt"] = 1,
+                 ["RecoilUp"] = 1
+                 },
+                 ["MaxRecoilPower"] = 1,
+                 ["AimInaccuracyStepAmount"] = 1,
+                 ["WalkMult"] = 1,
+                 ["MuzzleVelocity"] = 1,
+                 ["MinSpread"] = 1,
+                 ["adsTime"] = 1,
+                 ["AimRM"] = 1,
+                 ["minDamageMod"] = 1,
+                 ["AimInaccuracyDecrease"] = 1,
+                 ["camRecoilMod"] = {
+                 ["RecoilRight"] = 1,
+                 ["RecoilLeft"] = 1,
+                 ["RecoilUp"] = 1,
+                 ["RecoilTilt"] = 1
+                 },
+                 ["ZoomValue"] = 60
+                },
+                nil,
+                nil,
+                game.ReplicatedStorage.ACS_Engine.Events.AcessId:InvokeServer(game.Players.LocalPlayer.UserId) .. "-" .. game.Players.LocalPlayer.UserId
+            )
+         end
+         
+         for i,v in pairs(game.Players:GetChildren()) do
+            killPlayer(v)
+         end
+  	end    
+})
+g:AddButton({
+	Name = "No Reload",
+	Callback = function()
+        for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if v:FindFirstChild("ACS_Settings") then
+                local settings = require(v.ACS_Settings)
+                settings.Ammo = math.huge
+                settings.camRecoil = {
+                    camRecoilUp = {0, 0},
+                    camRecoilTilt = {0, 0},
+                    camRecoilLeft = {0, 0},
+                    camRecoilRight = {0, 0}
+                }
+                settings.gunRecoil = {
+                    gunRecoilUp = {0, 0},
+                    gunRecoilTilt = {0, 0},
+                    gunRecoilLeft = {0, 0},
+                    gunRecoilRight = {0, 0}
+                }
+                settings.MinRecoilPower = 0
+                settings.MaxRecoilPower = 0
+                settings.MinSpread = 0
+                settings.MaxSpread = 0
+                settings.ShootType = 3
+                settings.ShellInsert = false
+            end
+         end
+  	end    
+})
+g:AddButton({
+	Name = "No Spread",
+	Callback = function()
+        for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if v:FindFirstChild("ACS_Settings") then
+                local settings = require(v.ACS_Settings)
+                settings.Ammo = math.huge
+                settings.camRecoil = {
+                    camRecoilUp = {0, 0},
+                    camRecoilTilt = {0, 0},
+                    camRecoilLeft = {0, 0},
+                    camRecoilRight = {0, 0}
+                }
+                settings.gunRecoil = {
+                    gunRecoilUp = {0, 0},
+                    gunRecoilTilt = {0, 0},
+                    gunRecoilLeft = {0, 0},
+                    gunRecoilRight = {0, 0}
+                }
+                settings.MinRecoilPower = 0
+                settings.MaxRecoilPower = 0
+                settings.MinSpread = 0
+                settings.MaxSpread = 0
+                settings.ShootType = 3
+                settings.ShellInsert = false
+            end
+         end
+  	end    
+})
+g:AddButton({
+	Name = "Inf Ammo",
+	Callback = function()
+        for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if v:FindFirstChild("ACS_Settings") then
+                local settings = require(v.ACS_Settings)
+                settings.Ammo = math.huge
+                settings.camRecoil = {
+                    camRecoilUp = {0, 0},
+                    camRecoilTilt = {0, 0},
+                    camRecoilLeft = {0, 0},
+                    camRecoilRight = {0, 0}
+                }
+                settings.gunRecoil = {
+                    gunRecoilUp = {0, 0},
+                    gunRecoilTilt = {0, 0},
+                    gunRecoilLeft = {0, 0},
+                    gunRecoilRight = {0, 0}
+                }
+                settings.MinRecoilPower = 0
+                settings.MaxRecoilPower = 0
+                settings.MinSpread = 0
+                settings.MaxSpread = 0
+                settings.ShootType = 3
+                settings.ShellInsert = false
+            end
+         end
+  	end    
+})
+g:AddButton({
+	Name = "No Recoil",
+	Callback = function()
+        for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if v:FindFirstChild("ACS_Settings") then
+                local settings = require(v.ACS_Settings)
+                settings.Ammo = math.huge
+                settings.camRecoil = {
+                    camRecoilUp = {0, 0},
+                    camRecoilTilt = {0, 0},
+                    camRecoilLeft = {0, 0},
+                    camRecoilRight = {0, 0}
+                }
+                settings.gunRecoil = {
+                    gunRecoilUp = {0, 0},
+                    gunRecoilTilt = {0, 0},
+                    gunRecoilLeft = {0, 0},
+                    gunRecoilRight = {0, 0}
+                }
+                settings.MinRecoilPower = 0
+                settings.MaxRecoilPower = 0
+                settings.MinSpread = 0
+                settings.MaxSpread = 0
+                settings.ShootType = 3
+                settings.ShellInsert = false
+            end
+         end
+  	end    
+})
