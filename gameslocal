@@ -136,6 +136,15 @@ local products = {
         ["URL"] = "https://pastebin.com/raw/Sc3Pdarc",
         ["Function"] = nil
     },
+      ["Emergency Response: Liberty County"] = {
+        ["Name"] = "Emergency Response: Liberty County",
+        ["IDs"] = {
+            2534724415,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected.lua",
+        ["Function"] = nil
+    },
 
     ["Chicago Remastered"] = {
         ["Name"] = "Chicago Remastered",
