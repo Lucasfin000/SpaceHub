@@ -116,7 +116,19 @@ local products = {
 
         ["Name"] = "Blox Fruits",
         ["IDs"] = {
-            994732206,
+            4442272183,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS",
+        ["Function"] = nil
+
+    },
+    ["Blox Fruits"] = {
+
+        ["Name"] = "Blox Fruits",
+        ["IDs"] = {
+            7449423635,
 
         },
         ["Version"] = "1.0.0",
