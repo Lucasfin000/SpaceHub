@@ -157,6 +157,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected.lua",
         ["Function"] = nil
     },
+       ["AniPhobia"] = {
+        ["Name"] = "AniPhobia",
+        ["IDs"] = {
+            6788434697,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/aniphobia",
+        ["Function"] = nil
+    },
 
     ["Chicago Remastered"] = {
         ["Name"] = "Chicago Remastered",
