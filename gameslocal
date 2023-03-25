@@ -791,6 +791,15 @@ local products = {
         ["URL"] = "",
         ["Function"] = "parrts"
     },
+      ["Rebirth Champions X"] = {
+        ["Name"] = "Rebirth Champions X",
+        ["IDs"] = {
+            8540346411,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/rcx.lua",
+        ["Function"] = "parrts"
+    },
 
 
 
