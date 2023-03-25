@@ -136,6 +136,18 @@ local products = {
         ["Function"] = nil
 
     },
+      ["Tower Of Hell"] = {
+
+        ["Name"] = "Tower Of Hell",
+        ["IDs"] = {
+            1962086868,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/TOH.lua",
+        ["Function"] = nil
+
+    },
 
 
     ["Prison Life"] = {
