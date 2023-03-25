@@ -215,6 +215,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Raiseafloppa.lua",
         ["Function"] = nil
     },
+       ["Cheese Escape"] = {
+        ["Name"] = "Cheese Escape",
+        ["IDs"] = {
+            5777099015,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/cheese",
+        ["Function"] = nil
+    },
     ["Mic Up"] = {
         ["Name"] = "Mic Up",
         ["IDs"] = {
