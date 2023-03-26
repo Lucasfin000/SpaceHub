@@ -807,9 +807,26 @@ local products = {
         },
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/rcx.lua",
-        ["Function"] = "parrts"
+        ["Function"] = nil
     },
-
+    ["Type Race"] = {
+        ["Name"] = "Type Race",
+        ["IDs"] = {
+            7232779505,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/typerace",
+        ["Function"] = nil
+    },
+        ["Type Race"] = {
+        ["Name"] = "Type Race",
+        ["IDs"] = {
+            7958781217,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/typerace",
+        ["Function"] = nil
+    },
 
 
 }
