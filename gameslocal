@@ -112,30 +112,7 @@ local products = {
         ["Function"] = "BloxFruits"
 
     },
-    ["Blox Fruits"] = {
-
-        ["Name"] = "Blox Fruits",
-        ["IDs"] = {
-            4442272183,
-
-        },
-        ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS",
-        ["Function"] = "BloxFruits"
-
-    },
-    ["Blox Fruits"] = {
-
-        ["Name"] = "Blox Fruits",
-        ["IDs"] = {
-            7449423635,
-
-        },
-        ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS",
-        ["Function"] = "BloxFruits"
-
-    },
+  
       ["Tower Of Hell"] = {
 
         ["Name"] = "Tower Of Hell",
