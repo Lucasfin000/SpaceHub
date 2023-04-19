@@ -210,15 +210,7 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/micup.lua",
         ["Function"] = nil
     },
-       ["Pet Simulator X"] = {
-        ["Name"] = "Pet Simulator X",
-        ["IDs"] = {
-            6284583030,
-        },
-        ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/petsimulatorx.lua",
-        ["Function"] = nil
-    },
+      
     ["Clicker Madness"] = {
         ["Name"] = "Clicker Madness",
         ["IDs"] = {
@@ -811,6 +803,15 @@ local products = {
         },
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/typerace",
+        ["Function"] = nil
+    },
+     ["Pet Simulator X"] = {
+        ["Name"] = "Pet Simulator X",
+        ["IDs"] = {
+            6284583030,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/petsimulatorx.lua",
         ["Function"] = nil
     },
 
