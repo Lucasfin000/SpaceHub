@@ -814,7 +814,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/petsimulatorx.lua",
         ["Function"] = nil
     },
-
+   ["Strongman Simulator"] = {
+        ["Name"] = "Strongman Simulator",
+        ["IDs"] = {
+            6766156863,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/strongman.lua",
+        ["Function"] = nil
+    },
+    
 
 }
 local success, errormessage = pcall(function()
