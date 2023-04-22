@@ -1,0 +1,44 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Space Hub | Mt. Everest Climbing Roleplay", HidePremium = false, IntroEnabled = true, SaveConfig = true, IntroText = "SpaceHub", IntroIcon = "rbxassetid://4483362748", Icon = "rbxassetid://4483362748", ConfigFolder = "Loader"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Teleport To Camp 1",
+	Callback = function()
+      		tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(2, Enum.EasingStyle.Linear)
+              tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-1127.112060546875, 940.7950439453125, 1268.3226318359375)}):Play()
+  	end    
+})
+Tab:AddButton({
+	Name = "Teleport To Camp 2",
+	Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2165.52685546875, 1779.6055908203125, 769.3374633789062)}):Play()
+  	end    
+})
+Tab:AddButton({
+	Name = "Teleport To Camp 3",
+	Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-3840.052490234375, 4992.79443359375, 973.1338500976562)}):Play()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Teleport To Camp 4",
+	Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-4643.59912109375, 6617.30859375, 933.9306030273438)}):Play()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Teleport To The Top",
+	Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-5183.0087890625, 8488.357421875, 1106.74267578125)}):Play()
+  	end    
+})
