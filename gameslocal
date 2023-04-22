@@ -823,6 +823,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/strongman.lua",
         ["Function"] = nil
     },
+       ["Mt Everest Climbing Roleplay"] = {
+        ["Name"] = "Mt Everest Climbing Roleplay",
+        ["IDs"] = {
+            3145447020,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everest",
+        ["Function"] = nil
+    },
     
 
 }
