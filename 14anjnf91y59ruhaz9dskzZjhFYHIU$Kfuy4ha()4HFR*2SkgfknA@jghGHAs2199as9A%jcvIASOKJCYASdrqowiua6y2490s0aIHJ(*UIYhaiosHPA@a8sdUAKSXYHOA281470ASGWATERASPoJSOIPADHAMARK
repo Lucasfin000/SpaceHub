@@ -1,0 +1,7 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+OrionLib:MakeNotification({
+	Name = "ScriptHub Loaded",
+	Content = "This ScriptHub uses Lucas!#9935 ScriptHub template",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
