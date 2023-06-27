@@ -48,12 +48,6 @@ Premium:Button{
 }
 
 
-Tab:Button{
-	Name = "Load Others",
-	Description = "Others",
-	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/othershub.txt"))() end
-}
-
 
 
 
