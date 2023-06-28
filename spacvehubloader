@@ -46,6 +46,13 @@ Premium:Button{
 	Callback = function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacehubpremiumloader")))() end
      
 }
+Premium:Button{
+	Name = "Load Space Hub Premium Games",
+	Description = "Space Hub Premium Games",
+	Callback = function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/premiumgamses.lua")))() end
+     
+}
+
 
 
 
