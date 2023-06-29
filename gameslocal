@@ -832,6 +832,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everest",
         ["Function"] = nil
     },
+        ["Robloxs Fastest Vehicle"] = {
+        ["Name"] = "Robloxs Fastest Vehicle",
+        ["IDs"] = {
+            4894308400,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/rblxfastestveh",
+        ["Function"] = nil
+    },
     
 
 }
