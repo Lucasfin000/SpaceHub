@@ -43,7 +43,7 @@ GUI:Notification{
 Premium:Button{
 	Name = "Load Space Hub Premium",
 	Description = "Space Hub Premium",
-	Callback = function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacehubpremiumloader")))() end
+	Callback = function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/updpremiumkeysys")))() end
      
 }
 Premium:Button{
