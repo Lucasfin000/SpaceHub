@@ -841,6 +841,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/rblxfastestveh",
         ["Function"] = nil
     },
+   ["Arm Wrestle Simulator"] = {
+        ["Name"] = "Arm Wrestle Simulator",
+        ["IDs"] = {
+            13127800756,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/armwersle-obfuscated.lua",
+        ["Function"] = nil
+    },
     
 
 }
