@@ -850,6 +850,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/armwersle-obfuscated.lua",
         ["Function"] = nil
     },
+ ["Fishing Simulator"] = {
+        ["Name"] = "Fishing Simulator",
+        ["IDs"] = {
+            2866967438,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/fishingsim.lua",
+        ["Function"] = nil
+    },
     
 
 }
