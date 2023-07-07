@@ -7,6 +7,17 @@ local function processfunction(functionname)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BLOXFRUITS", true))()
         return(true)
     end
+if functionname == "jetpack" then
+    while wait() do
+local A_1 = game:GetService("Workspace").World.Lobby.Launcher.Collision
+local Event = game:GetService("ReplicatedStorage")["ProjectBlue_ClientNewLaunchEvent"]
+Event:FireServer(A_1)
+wait()
+local Event = game:GetService("ReplicatedStorage")["ProjectBlue_ClientStopLaunchEvent"]
+Event:FireServer()
+end
+        return(true)
+    end
     if functionname == "norotr" then
         loadstring(game:GetObjects("rbxassetid://4763830754")[1].Source)()
         return(true)
@@ -253,8 +264,8 @@ local products = {
             7444263453,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Nameless9000/RbxScripts/main/JetpackJumpersInfMoney.lua",
-        ["Function"] = nil
+        ["URL"] = nil,
+        ["Function"] = "jetpack"
     },
     ["Superhero Simulator"] = {
         ["Name"] = "Superhero Simulator",
