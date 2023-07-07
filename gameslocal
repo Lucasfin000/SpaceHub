@@ -859,6 +859,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/fishingsim.lua",
         ["Function"] = nil
     },
+ ["Scuba Diving At Quill Lake"] = {
+        ["Name"] = "Scuba Diving At Quill Lake",
+        ["IDs"] = {
+            1450425732,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/quilllake.lua",
+        ["Function"] = nil
+    },
     
 
 }
