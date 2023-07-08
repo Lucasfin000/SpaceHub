@@ -26,6 +26,13 @@ end
         game.Workspace["Parts"]:Destroy()
         return(true)
     end
+  if functionname == "breakingpoint" then
+     
+ 
+
+ game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-32, 6, -213)
+        return(true)
+    end
     if functionname == "gwap" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-356.79083251953125, 701.0478515625, -2131.89111328125)
         return(true)
@@ -706,7 +713,7 @@ local products = {
         },
         ["Version"] = "1.0.0",
         ["URL"] = "",
-        ["Function"] = "BP"
+        ["Function"] = "breakingpoint"
     },
     ["Da Hood"] = {
         ["Name"] = "Da Hood",
