@@ -886,6 +886,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/quilllake.lua",
         ["Function"] = nil
     },
+ ["Money Tycoon"] = {
+        ["Name"] = "Money Tycoon",
+        ["IDs"] = {
+            9898710720,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/moneytycoon.lua",
+        ["Function"] = nil
+    },
     
 
 }
