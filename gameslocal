@@ -895,6 +895,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/moneytycoon.lua",
         ["Function"] = nil
     },
+ ["Gorilla Tag Experience"] = {
+        ["Name"] = "Gorilla Tag Experience",
+        ["IDs"] = {
+            8877152338,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/grilliatag.lua",
+        ["Function"] = nil
+    },
     
 
 }
