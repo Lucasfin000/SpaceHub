@@ -913,6 +913,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/mergedroppers.lua",
         ["Function"] = nil
     },
+ ["NERF Strike"] = {
+        ["Name"] = "NERF Strike",
+        ["IDs"] = {
+            6245984328,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/nerfstrike.lua",
+        ["Function"] = nil
+    },
     
 
 }
