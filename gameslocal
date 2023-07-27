@@ -904,6 +904,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/grilliatag.lua",
         ["Function"] = nil
     },
+ ["Merge Droppers"] = {
+        ["Name"] = "Merge Droppers",
+        ["IDs"] = {
+            10977918334,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/mergedroppers.lua",
+        ["Function"] = nil
+    },
     
 
 }
