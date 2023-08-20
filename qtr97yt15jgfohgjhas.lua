@@ -833,7 +833,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everest",
         ["Function"] = nil
     },
-    
+           ["Driving Simulator"] = {
+        ["Name"] = "Driving Simulator",
+        ["IDs"] = {
+            1137431029,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/cardrivingsim.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
