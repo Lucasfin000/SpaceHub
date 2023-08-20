@@ -922,7 +922,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/nerfstrike.lua",
         ["Function"] = nil
     },
-    
+ ["Full Self Driving/Autopilot Simulator"] = {
+        ["Name"] = "Full Self Driving/Autopilot Simulator",
+        ["IDs"] = {
+            11832484500,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/selfdriving.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
