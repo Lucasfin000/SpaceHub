@@ -736,7 +736,6 @@ local products = {
     ["Twisted"] = {
         ["Name"] = "Twisted",
         ["IDs"] = {
-            6161235818,
             14170731342,
         },
         ["Version"] = "1.0.0",
