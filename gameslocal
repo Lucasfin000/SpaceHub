@@ -737,6 +737,7 @@ local products = {
         ["Name"] = "Twisted",
         ["IDs"] = {
             6161235818,
+            14170731342,
         },
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/twisted",
