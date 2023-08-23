@@ -469,7 +469,7 @@ local products = {
             142823291,
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/Protected%20(6).lua",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/mm2.lua",
         ["Function"] = nil
     },
     ["Super Treehouse Tycoon"] = {
