@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Space Hub | Arsenal", HidePremium = false, IntroEnabled = true, SaveConfig = true, IntroText = "SpaceHub", IntroIcon = "rbxassetid://4483362748", Icon = "rbxassetid://4483362748", ConfigFolder = "Loader"})
+local Window = OrionLib:MakeWindow({Name = "Space Hub | Arsenal", HidePremium = false, IntroEnabled = false, SaveConfig = true, IntroText = "SpaceHub", IntroIcon = "rbxassetid://4483362748", Icon = "rbxassetid://4483362748", ConfigFolder = "Loader"})
 
 -- Values
 _G.NoClip = false
