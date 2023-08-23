@@ -11,11 +11,6 @@ local Aimbot = Window:MakeTab({
     Icon = "rbxassetid://4483362748",
     PremiumOnly = false
 })
-local esp = Window:MakeTab({
-    Name = "ESP",
-    Icon = "rbxassetid://4483362458",
-    PremiumOnly = false
-})
 local gunmods = Window:MakeTab({
     Name = "Gun Mods",
     Icon = "rbxassetid://4384396122",
