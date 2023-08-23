@@ -139,7 +139,7 @@ local products = {
 
         },
         ["Version"] = "1.0.0",
-        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/TOH.lua",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/tohobf.lua",
         ["Function"] = nil
 
     },
