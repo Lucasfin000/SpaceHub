@@ -21,11 +21,7 @@ local gunmods = Window:MakeTab({
     Icon = "rbxassetid://4384396122",
     PremiumOnly = false
 })
-local Player = Window:MakeTab({
-    Name = "Player",
-    Icon = "rbxassetid://4335480896",
-    PremiumOnly = false
-})
+
 
 
 
@@ -285,28 +281,4 @@ esp:AddButton({
 	Callback = function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP")))()
   	end    
-})-- Put your Lua here
-Player:AddSlider({
-    Name = "WalkSpeed",
-    Min = 16,
-    Max = 500,
-    Default = 16,
-    Color = Color3.fromRGB(155, 66, 245),
-    Increment = 1,
-    ValueName = "Walk Speed",
-    Callback = function(ws)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = ws
-    end    
-})
-Player:AddSlider({
-    Name = "Jump Power",
-    Min = 50,
-    Max = 500,
-    Default = 50,
-    Color = Color3.fromRGB(155, 66, 245),
-    Increment = 1,
-    ValueName = "Jump Power",
-    Callback = function(jp)
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = jp
-    end    
 })
