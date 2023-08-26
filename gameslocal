@@ -958,6 +958,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/berrysprisonrun.lua",
         ["Function"] = nil
     },
+ ["Escape The World Obby"] = {
+        ["Name"] = "Escape The World Obby",
+        ["IDs"] = {
+            6496746583,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/escapetheworldobby.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
