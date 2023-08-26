@@ -994,6 +994,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/animeclash.lua",
         ["Function"] = nil
     },
+ ["The Dank Murderer 2"] = {
+        ["Name"] = "The Dank Murderer 2",
+        ["IDs"] = {
+            9421227126,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/dankmurder2.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
