@@ -976,6 +976,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everysec.lua",
         ["Function"] = nil
     },
+ ["eet a Plane Simulator"] = {
+        ["Name"] = "eet a Plane Simulator",
+        ["IDs"] = {
+            13780662126,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/yeetaplane.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
