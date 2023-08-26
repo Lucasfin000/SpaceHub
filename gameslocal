@@ -976,13 +976,22 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everysec.lua",
         ["Function"] = nil
     },
- ["eet a Plane Simulator"] = {
-        ["Name"] = "eet a Plane Simulator",
+ ["Yeet a Plane Simulator"] = {
+        ["Name"] = "Yeet a Plane Simulator",
         ["IDs"] = {
             13780662126,
         },
         ["Version"] = "1.0.0",
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/yeetaplane.lua",
+        ["Function"] = nil
+    },
+ ["Anime Energy Clash Simulator"] = {
+        ["Name"] = "Anime Energy Clash Simulator",
+        ["IDs"] = {
+            13370783664,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/animeclash.lua",
         ["Function"] = nil
     },
 }
