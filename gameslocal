@@ -931,7 +931,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/selfdriving.lua",
         ["Function"] = nil
     },
-
+ ["The Mad Murderer X"] = {
+        ["Name"] = "The Mad Murderer X",
+        ["IDs"] = {
+            8317834514,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/madmurder.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
