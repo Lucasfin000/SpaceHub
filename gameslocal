@@ -1003,6 +1003,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/dankmurder2.lua",
         ["Function"] = nil
     },
+ ["Boxing Friends Simulator"] = {
+        ["Name"] = "Boxing Friends Simulator",
+        ["IDs"] = {
+            10857807258,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/boxingfriends.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
