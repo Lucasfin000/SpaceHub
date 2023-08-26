@@ -949,6 +949,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/PilferingPirates.lua",
         ["Function"] = nil
     },
+ ["Barrys Prison Run"] = {
+        ["Name"] = "Barrys Prison Run",
+        ["IDs"] = {
+            8712817601,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/berrysprisonrun.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
