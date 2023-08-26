@@ -967,6 +967,15 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/escapetheworldobby.lua",
         ["Function"] = nil
     },
+ ["Every Second You Get +1 WalkSpeed"] = {
+        ["Name"] = "Every Second You Get +1 WalkSpeed",
+        ["IDs"] = {
+            12742233841,
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/everysec.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
