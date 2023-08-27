@@ -1111,6 +1111,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/chickenlife.lua",
         ["Function"] = nil
     },
+ ["Cat Simulator"] = {
+        ["Name"] = "Cat Simulator",
+        ["IDs"] = {
+            4188447592,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/catsim.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
