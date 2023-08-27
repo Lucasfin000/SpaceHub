@@ -1141,6 +1141,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/speedrun4.lua",
         ["Function"] = nil
     },
+ ["Speed Simulator"] = {
+        ["Name"] = "Speed Simulator",
+        ["IDs"] = {
+            7026828578,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/speedsimulator.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
