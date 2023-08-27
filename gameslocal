@@ -1232,6 +1232,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/panki.lua",
         ["Function"] = nil
     },
+ ["Racing Rocket"] = {
+        ["Name"] = "Racing Rocket",
+        ["IDs"] = {
+            10676523834,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/racingrocket.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
