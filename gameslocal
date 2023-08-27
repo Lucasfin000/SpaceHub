@@ -1221,6 +1221,17 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/oilwarefare.lua",
         ["Function"] = nil
     },
+ ["Panik"] = {
+        ["Name"] = "Panik",
+        ["IDs"] = {
+          
+10219766033,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/panki.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
