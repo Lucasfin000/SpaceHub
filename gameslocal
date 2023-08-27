@@ -1181,6 +1181,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/beaparkourninja.lua",
         ["Function"] = nil
     },
+ ["DEFLECT"] = {
+        ["Name"] = "DEFLECT",
+        ["IDs"] = {
+            10889408214,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/deflect.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
