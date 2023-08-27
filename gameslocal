@@ -1091,6 +1091,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/doubledown.lua",
         ["Function"] = nil
     },
+ ["Lemonade Tycoon"] = {
+        ["Name"] = "Lemonade Tycoon",
+        ["IDs"] = {
+            10675042838,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/lemondaetycoon.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
