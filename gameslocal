@@ -1071,6 +1071,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/BigLiftingSimulatorX.lua",
         ["Function"] = nil
     },
+ ["Custom Duels"] = {
+        ["Name"] = "Custom Duels",
+        ["IDs"] = {
+            2609668898,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/customduels.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
