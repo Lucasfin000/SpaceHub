@@ -1021,6 +1021,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/TeamworkPuzzles2.lua",
         ["Function"] = nil
     },
+ ["Doors"] = {
+        ["Name"] = "Doors",
+        ["IDs"] = {
+            6839171747,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/doors.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
