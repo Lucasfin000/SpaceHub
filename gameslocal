@@ -1041,6 +1041,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/longestanser.lua",
         ["Function"] = nil
     },
+ ["Slap Battles"] = {
+        ["Name"] = "Slap Battles",
+        ["IDs"] = {
+            6403373529,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/slapbattles.lua",
+        ["Function"] = nil
+    },
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
