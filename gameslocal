@@ -1201,6 +1201,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/forgottenmemories.lua",
         ["Function"] = nil
     },
+ ["Mos Academy"] = {
+        ["Name"] = "Mos Academy",
+        ["IDs"] = {
+            9000622508,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/mosacademy.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
