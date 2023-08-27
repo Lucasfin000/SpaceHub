@@ -1171,6 +1171,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/animeracingclicker.lua",
         ["Function"] = nil
     },
+ ["Be A Parkour Ninja"] = {
+        ["Name"] = "Be A Parkour Ninja",
+        ["IDs"] = {
+            147848991,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/beaparkourninja.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
