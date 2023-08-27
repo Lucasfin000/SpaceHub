@@ -1161,6 +1161,17 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/backroomsrace.lua",
         ["Function"] = nil
     },
+ ["Anime Racing Clicker"] = {
+        ["Name"] = "Anime Racing Clicker",
+        ["IDs"] = {
+            10714365287,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/animeracingclicker.lua",
+        ["Function"] = nil
+    },
+
 }
 local success, errormessage = pcall(function()
     for  _, product in pairs(products) do
