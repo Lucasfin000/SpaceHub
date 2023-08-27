@@ -1211,6 +1211,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/mosacademy.lua",
         ["Function"] = nil
     },
+ ["War Tycoon"] = {
+        ["Name"] = "War Tycoon",
+        ["IDs"] = {
+            4639625707,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/oilwarefare.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
