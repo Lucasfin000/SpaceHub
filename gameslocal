@@ -1252,6 +1252,16 @@ local products = {
         ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/SmoothieFactorTycoon.lua",
         ["Function"] = nil
     },
+ ["Lifting Simulator"] = {
+        ["Name"] = "Lifting Simulator",
+        ["IDs"] = {
+            3652625463,
+
+        },
+        ["Version"] = "1.0.0",
+        ["URL"] = "https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/weightlifting.lua",
+        ["Function"] = nil
+    },
 
 }
 local success, errormessage = pcall(function()
